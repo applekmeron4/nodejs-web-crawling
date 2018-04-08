@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-web-crawling",
+  "version": "0.0.1",
+  "description": "NodeJS boilerplate with babel and webpack",
+  "scripts": {
+    "clean": "rm -rf build",
+    "build": "webpack --config webpack.config.babel.js",
+    "start": "node build/app.js",
+    "demon": "nodemon build/app.js",
+    "watch": "webpack --watch",
+    "dev": "npm-run-all build --parallel watch demon"
+  },
+  "author": "mojomoth",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "nodemon": "^1.14.11",
+    "npm-run-all": "^4.1.2",
+    "uglifyjs-webpack-plugin": "^1.1.6",
+    "webpack": "^3.10.0"
+  }
+}
