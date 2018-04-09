@@ -1,8 +1,8 @@
-import test from './test';
+import http from 'http';
+import url from 'url';
 
-const t = new test();
-t.foo();
+http.createServer(async (request, response) => {  
+  // write code
 
-const abc = () => console.log(new Date());
+}).listen(8080);
 
-setInterval(abc, 1000);
