@@ -10,7 +10,7 @@
     "watch": "webpack --watch",
     "dev": "npm-run-all build --parallel watch demon"
   },
-  "author": "mojomoth",
+  "author": "applekmeron4",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
@@ -27,6 +27,7 @@
     "uglifyjs-webpack-plugin": "^1.1.6",
     "webpack": "^3.10.0",
     "webpack-node-externals": "^1.6.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/applekmeron4/nodejs-web-crawling"
 }
-
